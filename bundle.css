@@ -9516,6 +9516,14 @@ fieldset:disabled #header button {
   }
 }
 
+#navbarSupportedContent {
+  height: 40px;
+}
+
+#navbarSupportedContent #main-menu {
+  margin-top: 0;
+}
+
 @media (max-width: 991.98px) {
   #header #navbarSupportedContent {
     overflow: hidden;
