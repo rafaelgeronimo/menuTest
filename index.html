@@ -28,7 +28,7 @@
       <nav class="navbar navbar-expand-lg flex-column">
         <div class="container">
           <div class="container-header d-flex">
-            <a href="/" class="navbar__logo navbar-brand">
+            <a href="/" class="navbar__logo navbar-brand" data-ga-link-id="logo-home-redirect">
               <img src="https://dummyimage.com/185x56/477479/fff&text=LOGO" alt="Logo Investment Partners">
             </a>
           </div>
@@ -68,7 +68,7 @@
                       </a>
                     </li>
                     <li class="header-menu__nav__box">
-                      <a href="/strategies/engage/">
+                      <a href="/strategies/engage/" data-ga-link-id="engage-with-us">
                         <span>Engage With Us</span>
                         <p>Connect with our Institutional Client Service Team.</p>
                       </a>
@@ -78,20 +78,21 @@
               </li>
               <!-- Menu Funds -->
               <li class="header-menu__nav header-menu__nav__item">
-                <a href="#" class="header-menu__nav__item__link">Funds</a>
+                <a href="#" class="header-menu__nav__item__link" data-ga-link-id="funds-menu-open">Funds</a>
                 <div class="header-menu__nav__content">
                   <ul>
                     <li class="header-menu-path d-lg-none">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="funds-menu-close">
                         Funds
                       </a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">Prices &amp; Performance</a>
+                      <a href="#" class="header-menu__nav__item__link" data-ga-link-id="prices-and-performance">Prices
+                        &amp; Performance</a>
                     </li>
                     <li class="header-menu__nav__item open-funds">
                       <a href="#" class="header-menu__nav__item__link"
-                        data-ga-link-id="expand-menu-open-end-funds">Open-End Funds</a>
+                        data-ga-link-id="open-menu-open-end-funds">Open-End Funds</a>
                       <!-- Sub Menu Open-End Funds -->
                       <ul class="header-menu__nav__submenu">
                         <li class="submenu-path d-lg-none">
@@ -140,27 +141,28 @@
                       </ul>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link" data-ga-link-id="closed-end-funds">Closed-End
+                      <a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="open-closed-end-funds">Closed-End
                         Funds</a>
                       <!-- Sub Menu Closed-End Funds  -->
                       <ul class="header-menu__nav__submenu">
                         <li class="submenu-path d-lg-none">
-                          <a href="#">
+                          <a href="#" data-ga-link-id="close-closed-end-funds">
                             Funds / Closed-End Funds
                           </a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Global
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="global-value-trust">Global
                             Value
                             Trust</a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Micro-Cap
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="micro-cap-trust">Micro-Cap
                             Trust</a></li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Value
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="value-trust">Value
                             Trust</a></li>
-                        <li class="header-menu__nav__box"><a href="#">
+                        <li class="header-menu__nav__box"><a href="#" data-ga-link-id="closed-end-resources">
                             <span>CLOSED-END RESOURCES</span>
                             <p>Portfolios, Purchasing, Drip Plan, Section 16 Fillings, Section 19a Notices, Proxy
                               Statements
@@ -169,28 +171,30 @@
                       </ul>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">Annuity Portfolios</a>
+                      <a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="open-annuity-portfolios-menu">Annuity Portfolios</a>
                       <!-- Sub Menu Annuity Portfolios -->
                       <ul class="header-menu__nav__submenu">
                         <li class="submenu-path d-lg-none">
-                          <a href="#">
+                          <a href="#" data-ga-link-id="close-annuity-portfolios-menu">
                             Funds / Annuity Portfolios
                           </a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Capital
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="capita-micro-cap">Capital
                             Micro-Cap</a></li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Capital
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="capital-small-cap">Capital
                             Small-Cap</a></li>
                       </ul>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">ETFs &amp; SMAs</a>
+                      <a href="#" class="header-menu__nav__item__link" data-ga-link-id="open-etfs-and-smas-menu">ETFs
+                        &amp; SMAs</a>
                       <!-- Sub Menu ETFs & SMAs -->
                       <ul class="header-menu__nav__submenu funds-etfsma">
                         <li class="submenu-path d-lg-none">
-                          <a href="#">
+                          <a href="#" data-ga-link-id="close-etfs-and-smas-funds">
                             Funds / ETFs &amp; SMAs
                           </a>
                         </li>
@@ -198,7 +202,8 @@
                           <h6>EXCHANGE TRADED FUNDS</h6>
                         </li>
                         <li class="header-menu__nav__item">
-                          <a href="#" class="header-menu__nav__item__submenu-link">
+                          <a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="quant-small-cap-quality-value-etf">
                             Logo Quant Small-Cap Quality Value ETF<br />
                             <span>Logo Sub-advised Portfolio</span>
                           </a>
@@ -207,56 +212,62 @@
                           <h6>SEPARATELY MANAGED ACCOUNTS</h6>
                         </li>
                         <li class="header-menu__nav__item">
-                          <a href="#" class="header-menu__nav__item__submenu-link">
+                          <a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="small-cap-premier-quality-sma">
                             Small-Cap Premier Quality SMA
                           </a>
                         <li>
                       </ul>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">Resources</a>
+                      <a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="open-resources-menu">Resources</a>
                       <!-- Sub Menu Resources -->
                       <ul class="header-menu__nav__submenu">
                         <li class="submenu-path d-lg-none">
-                          <a href="#">
+                          <a href="#" data-ga-link-id="close-resources-menu">
                             Funds / Resources
                           </a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Literature</a>
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="literature">Literature</a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Distributions</a>
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="distributions">Distributions</a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link">Tax
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="tax-information">Tax
                             Information</a></li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Applications
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="application-forms">Applications
                             / Forms</a>
                         </li>
-                        <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link">Shareholders
+                        <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__submenu-link"
+                            data-ga-link-id="shareholders-reports">Shareholders
                             Reports</a>
                         </li>
                         <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link d-none d-lg-block">Relative
+                            class="header-menu__nav__item__submenu-link d-none d-lg-block"
+                            data-ga-link-id="relative-risk-spectrum-tool">Relative
                             Risk
                             Spectrum
                             Tool</a></li>
                         <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link d-none d-lg-block">Growth
+                            class="header-menu__nav__item__submenu-link d-none d-lg-block"
+                            data-ga-link-id="growth-of-investment-tool">Growth
                             of
                             Investment
                             Tool</a></li>
                         <li class="header-menu__nav__item"><a href="#"
-                            class="header-menu__nav__item__submenu-link d-none d-lg-block">Compare
+                            class="header-menu__nav__item__submenu-link d-none d-lg-block"
+                            data-ga-link-id="compare-funds-tool">Compare
                             Funds
                             Tool</a>
                         </li>
                       </ul>
                     </li>
                     <li class="header-menu__nav__box">
-                      <a>
+                      <a href="#" data-ga-link-id="invest-with-us">
                         <span>Invest With Us</span>
                         <p>Learn how to invest directly or with your Financial Advisor.</p>
                       </a>
@@ -266,32 +277,36 @@
               </li>
               <!-- Menu Insights & News -->
               <li class="header-menu__nav header-menu__nav__item">
-                <a href="#" class="header-menu__nav__item__link">Insights & News</a>
+                <a href="#" class="header-menu__nav__item__link" data-ga-link-id="open-insights-and-news-menu">Insights
+                  &amp; News</a>
                 <div class="header-menu__nav__content header-menu__nav__content__double insights-desktop">
                   <!-- Left Sub Menu -> Insights -->
                   <ul>
                     <li class="header-menu-path d-lg-none">
-                      <a href="#">Insights &amp; News</a>
+                      <a href="#" data-ga-link-id="close-insights-and-news-menu">Insights &amp; News</a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="/insights/" class="header-menu__nav__item__link">
+                      <a href="/insights/" class="header-menu__nav__item__link" data-ga-link-id="insights-view-all">
                         <h6>
                           INSIGHTS
                           <span>View All</span>
                         </h6>
                       </a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Market
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="market-perspective">Market
                         Perspective</a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Investment
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="investment-focus">Investment
                         Focus</a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Small-Cap
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="small-cap-research">Small-Cap
                         Research</a>
                     </li>
                     <li class="header-menu__nav__box d-none d-lg-block">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="subscribe">
                         <span>Subscribe</span>
                         <p>Our latest insights, news, and media appearances.</p>
                       </a>
@@ -300,7 +315,7 @@
                   <!-- Rigth Sub Menu -> News -->
                   <ul>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">
+                      <a href="#" class="header-menu__nav__item__link" data-ga-link-id="news-view-all">
                         <h6>
                           NEWS
                           <span>View All</span>
@@ -308,23 +323,23 @@
                       </a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link insights-news">
+                      <a href="#" class="header-menu__nav__item__link insights-news" data-ga-link-id="news-1">
                         Francis Gannon in <em>The Wall Street Journal</em>: Is
                         Psychology Running the Market?
                       </a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link insights-news">
+                      <a href="#" class="header-menu__nav__item__link insights-news" data-ga-link-id="news-2">
                         Francis Gannon in <em>Barron’s</em> Discusses Buying Small-Caps at Attractive Prices
                       </a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link insights-news">
+                      <a href="#" class="header-menu__nav__item__link insights-news" data-ga-link-id="news-3">
                         Francis Gannon on How Rising Rates May Impact Small-Caps
                       </a>
                     </li>
                     <li class="header-menu__nav__box d-lg-none">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="subscribe">
                         <span>Subscribe</span>
                         <p>Our latest insights, news, and media appearances.</p>
                       </a>
@@ -335,52 +350,62 @@
               </li>
               <!-- Menu About Us -->
               <li class="header-menu__nav header-menu__nav__item">
-                <a href="#" class="header-menu__nav__item__link">
+                <a href="#" class="header-menu__nav__item__link" data-ga-link-id="open-about-us-menu">
                   About Us</a>
                 <div class="header-menu__nav__content header-menu__nav__content__double about-desktop">
                   <!-- Left Sub Menu -> Our People -->
                   <ul>
                     <li class="header-menu-path d-lg-none">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="close-about-us-menu">
                         About us
                       </a>
                     </li>
                     <li class="header-menu__nav__item">
-                      <a href="#" class="header-menu__nav__item__link">
+                      <a href="#" class="header-menu__nav__item__link" data-ga-link-id="our-people-view-all">
                         <h6>
                           OUR PEOPLE
                           <span>View All</span>
                         </h6>
                       </a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Leadership</a>
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="leadership">Leadership</a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Portfolio
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="portfolio-management">Portfolio
                         Management</a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Research</a>
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="research">Research</a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Trading</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Client
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="trading">Trading</a></li>
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="client-service">Client
                         Service</a></li>
                   </ul>
                   <!-- Right Sub Menu -> Logo Investment Partners -->
                   <ul>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="logo-investment-partners">
                         <h6>
                           LOGO INVESTMENT PARTNERS
                         </h6>
                       </a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-firm">Our
                         Firm</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-offerings">Our
                         Offerings</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-history">Our
                         History</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">ESG</a>
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="esg">ESG</a>
                     </li>
                     <li class="header-menu__nav__box">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="contact-us-box">
                         <span>Contact Us</span>
                         <p>Connect with us via email, phone or mail.</p>
                       </a>
@@ -391,22 +416,27 @@
                 <div class="d-block d-lg-none menu__nav__content">
                   <ul>
                     <li class="header-menu-path d-lg-none">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="open-about-us-mobile">
                         About us
                       </a>
                     </li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-people-mobile">Our
                         People</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-firm-mobile">Our
                         Firm</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-offerings-mobile">Our
                         Offerings</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">Our
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="our-history-mobile">Our
                         History</a></li>
-                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link">ESG</a>
+                    <li class="header-menu__nav__item"><a href="#" class="header-menu__nav__item__link"
+                        data-ga-link-id="esg-mobile">ESG</a>
                     </li>
                     <li class="header-menu__nav__box">
-                      <a href="#">
+                      <a href="#" data-ga-link-id="contact-us-box-mobile">
                         <span>Contact Us</span>
                         <p>Connect with us via email, phone or mail.</p>
                       </a>
@@ -418,20 +448,20 @@
             <!-- Account Menu -->
             <ul id="account-menu" class="d-lg-flex account-menu menu">
               <li class="header-menu__nav menu__nav__item">
-                <a href="#" class="header-menu__nav__item__link">Contact Us</a>
+                <a href="#" class="header-menu__nav__item__link" data-ga-link-id="contact-us">Contact Us</a>
               </li>
               <li class="header-menu__nav menu__nav__item">
                 <a href="#" class="header-menu__nav__item__link">Shareholder Account Access</a>
                 <div class="collapse menu__nav__content">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="#" data-ga-link-id="shareholder-account-access">
                         Shareholder Account Access
                         <img src="./img/link-blue.svg" alt="">
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="#" data-ga-link-id="closed-end-fund-account-access">
                         Closed-End Fund Account Access
                         <img src="./img/link-blue.svg" alt="">
                       </a>
@@ -484,16 +514,16 @@
             </ul>
             <!-- Social Menu -->
             <div id="social-menu" class="navbar-nav social-menu d-lg-none">
-              <a href="#">
+              <a href="#" data-ga-link-id="linked-in">
                 <img src="./img/social1.svg" alt="">
               </a>
-              <a href="#">
+              <a href="#" data-ga-link-id="twitter">
                 <img src="./img/social2.svg" alt="">
               </a>
-              <a href="#">
+              <a href="#" data-ga-link-id="youtube">
                 <img src="./img/social3.svg" alt="">
               </a>
-              <a href="#" class="subscribe-button">Subscribe</a>
+              <a href="#" class="subscribe-button" data-ga-link-id="subscribe">Subscribe</a>
             </div>
           </div>
         </div>
