@@ -9064,6 +9064,7 @@ fieldset:disabled #header button {
 }
 
 #header .header-menu__nav__item__link {
+  font-family: "ProximaNova", "Arial", "Helvetica";
   font-size: 16px !important;
   position: relative;
 }
@@ -9522,6 +9523,10 @@ fieldset:disabled #header button {
 
 #navbarSupportedContent #main-menu {
   margin-top: 0;
+}
+
+#account-menu {
+  font-family: "ProximaNova", "Arial", "Helvetica";
 }
 
 @media (max-width: 991.98px) {
